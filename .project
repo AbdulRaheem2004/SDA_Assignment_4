@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+    <name>SDA_Assignment_4_Hospital_Appointment_System</name>
+    <comment>Plain Java Eclipse project for SDA Assignment 4</comment>
+    <projects></projects>
+    <buildSpec><buildCommand><name>org.eclipse.jdt.core.javabuilder</name><arguments></arguments></buildCommand></buildSpec>
+    <natures><nature>org.eclipse.jdt.core.javanature</nature></natures>
+</projectDescription>
