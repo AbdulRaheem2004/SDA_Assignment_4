@@ -29,6 +29,10 @@ public class AcceptanceTest {
         Patient patient = new Patient("P01", "Ali", "ali@test.local", "03001234567", "PN1");
         Doctor doctor = new Doctor("D01", "Dr One", "one@test.local", "0300", "PR1", "Cardiology", "Peshawar", 2000);
         Doctor anotherDoctor = new Doctor("D02", "Dr Two", "two@test.local", "0301", "PR2", "Skin", "Peshawar", 3000);
+        Doctor overloadedDoctor = new Doctor("D03", "Dr Three", "Cardiology", "Lahore", 1200);
+        Patient overloadedPatient = new Patient("P02", "Sara", "sara@test.local", "0302", "PN2", "2000-01-01", "0303");
+        check(overloadedDoctor.getClinicLocation().equals("Lahore"), "doctor overloaded constructor");
+        check(overloadedPatient.getEmergencyContact().equals("0303"), "patient overloaded constructor");
         Doctor[] doctors = {doctor, anotherDoctor};
         TimeSlot[] slots = {
             new TimeSlot("S1", "D01", "2026-11-25 09:00", "2026-11-25 09:30"),

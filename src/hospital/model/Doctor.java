@@ -19,6 +19,10 @@ public class Doctor extends User {
         this.blackoutDate = "None";
     }
 
+    public Doctor(String id, String name, String specialty, String location, double fee) {
+        this(id, name, "doctor@demo.local", "", "PR-" + id, specialty, location, fee);
+    }
+
     public boolean setWeeklyHours(String hours) {
         if (hours == null || hours.trim().length() == 0) return false;
         weeklyHours = hours;
