@@ -9,7 +9,8 @@ This project implements the class design from Assignment 3 as a plain Java conso
 
 ## Video Demonstration & Final Report
 
-- **Video Demonstration (Direct MP4 Stream & Download):** [Download Hospital_Appointment_System_Eclipse_Demo.mp4](https://github.com/AbdulRaheem2004/SDA_Assignment_4/releases/download/v1.0.0/Hospital_Appointment_System_Eclipse_Demo.mp4)
+- **Primary Video Demonstration (Google Drive):** [Google Drive Stream & View](https://drive.google.com/file/d/1oWC6GNInkGhFYLvaxk5HT6du9IndgF3Y/view?usp=sharing)
+- **Direct Video Demonstration (GitHub Release MP4):** [Download Hospital_Appointment_System_Eclipse_Demo.mp4](https://github.com/AbdulRaheem2004/SDA_Assignment_4/releases/download/v1.0.0/Hospital_Appointment_System_Eclipse_Demo.mp4)
 - **GitHub Release & Video Notes:** [v1.0.0 Release Page](https://github.com/AbdulRaheem2004/SDA_Assignment_4/releases/tag/v1.0.0)
 - **Demonstration Details:** Genuine 3-minute screen recording of the application running live in Eclipse IDE on Windows with spoken audio explanations covering project structure, UC-02 doctor availability search, UC-01 booking and simulated payment, UC-04 cancellation under the 24-hour refund policy, and source inspection of core OOP concepts.
 
